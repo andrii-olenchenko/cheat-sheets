@@ -1,0 +1,23 @@
+ dt {
+     font-weight: bold;
+     margin-top: 20px;
+ }
+
+ dd {
+     margin: 10px 0;
+ }
+
+ code {
+     padding: 5px 10px;
+     background-color: silver;
+     border: 1px solid gray;
+     border-radius: 3px;
+ }
+
+ code:before {
+     content: "$> ";
+ }
+
+ .help-block {
+     color: gray;
+ }

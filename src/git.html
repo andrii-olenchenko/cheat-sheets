@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>GIT cheatsheet</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <dl>
+        <dt>init</dt>
+        <dd><code>git init</code></dd>
+
+        <dt>Add .gitignore file</dt>
+        <dd><code>cat >.gitignore</code>
+            <p class="help-block">Ctrl-D to save.</p>
+        </dd>
+
+        <dt>Add to .gitignore</dt>
+        <dd><code>cat .gitignore</code> </dd>
+        
+        <dt>Swith to new branch</dt>
+        <dd><code>git checkout -b <new_branch></code></dd>
+        
+        <dt>Add Remote Server</dt>
+        <dd><code>git add remote {remote url - copy-paste from github}</code></dd>
+        
+        <dt>Push to Remote Server</dt>
+        <dd><code>git push -u origin master </code></dd>
+        
+        <dt>Commit</dt>
+        <dd><code>git commit -m "Initial commit"</code></dd>
+        
+        <dt>Clone Remote repo</dt>
+        <dd>
+            <code>git clone [your local name of project] git@github.com:andrii-olenchenko/cheat-sheets.git</code>
+            <p class="help-block">Go to Root of projects dir</p>
+        </dd>
+
+        
+    </dl>
+
+    <code>
+        echo "# cheat-sheets" >> README.md 
+        git init 
+        git add README.md 
+        git commit -m "first commit" 
+        git remote add origin git@github.com:andrii-olenchenko/cheat-sheets.git 
+        git push -u origin master
+    </code>
+
+    About cat command -> https://www.tecmint.com/13-basic-cat-command-examples-in-linux/
+</body>
+
+</html>
